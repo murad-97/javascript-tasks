@@ -4,9 +4,11 @@ let x = 250 ;
 create variable Calculate the value of zakat for x ,If you know the percentage of zakat = 2.5 %; 
 
 */
+console.log("task1");
 let x = 250;
 let zakat = (x * 2.5) / 100;
 console.log(zakat);
+console.log("########");
 /*
 Array Tasks : 
 1
@@ -21,15 +23,19 @@ Correct the syntax error
 let number = [1, 7, 9, 45];
 let names = ["Str", "alex", "moh"];
 let animals = ["the", "fox", "over", "lazy", "dog"];
+
 /*
 2
 What the index of "Banana","Tomato"
 var fruits=["Tomato","Banana","Watermelon"]
 
 */
+console.log("task2");
 var fruits = ["Tomato", "Banana", "Watermelon"];
 console.log(fruits.indexOf("Tomato"));
+console.log("########");
 console.log(fruits.indexOf("Banana"));
+console.log("########");
 /*
 3
 Create an array represents your:
@@ -47,9 +53,10 @@ Create a Variable to return the first element in an array
 Ex: firstOfArray([1,4,5]) => 1
 Ex: firstOfArray(["t","u","g","x"]) => "t"
 */
-
+console.log("task4");
 firstOfArray = Favorite_Food[0];
 console.log(firstOfArray);
+console.log("########");
 /*
 5
 Create a Variable to return the lastOfArray element in an array 
@@ -57,8 +64,10 @@ Create a Variable to return the lastOfArray element in an array
 Ex: lastOfArray([1,4,5]) => 5
 Ex: lastOfArray(["t","u","g","x"]) => "x"
 */
+console.log("task5");
 firstOfArray = Favorite_Food[Favorite_Food.length - 1];
 console.log(firstOfArray);
+console.log("########");
 /*
 6
 Using console make this array to be like this one (push, unshift, shift, pop)
@@ -66,6 +75,7 @@ Using console make this array to be like this one (push, unshift, shift, pop)
 var array = [0,5,7,9]
 => [1,3,4,6,8,9,10]
 */
+console.log("task6");
 var array = [0, 5, 7, 9];
 array.push(10);
 array.shift();
@@ -74,14 +84,14 @@ array.shift();
 array.unshift(1, 3, 4, 6, 8);
 console.log(array);
 
-console.log("|||||||||||||||||||");
+console.log("########");
 /*
 7
 Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
 
 var array2 = [5,9,-7,3.5]
 */
-
+console.log("task7");
 array.pop();
 array.pop();
 array.pop();
@@ -93,14 +103,16 @@ array.unshift(5, 9);
 array.push(-7);
 array.push(3.5);
 console.log(array);
-
+console.log("########");
 /*
 8.
 Write a JavaScript program to sort the items of an array.
 Sample array : var arr1 = [ -3, 8, 7, 6, 5, -4, 3, 2, 1 ];
 Sample Output : -4,-3,1,2,3,5,6,7,8
 */
+console.log("task8");
 var arr1 = [-3, 8, 7, 6, 5, -4, 3, 2, 1];
 arr1.sort((a, b) => a - b);
 
 console.log(arr1);
+console.log("########");
