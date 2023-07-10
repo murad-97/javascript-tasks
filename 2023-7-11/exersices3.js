@@ -26,8 +26,8 @@ for (let i = 0; i < arr.length; i++) {
 
 */
 let array = [];
-for (let i = 0; i < 8; i++) {
-  array.push(i + 1);
+for (let i = 1; i <= 8; i++) {
+  array.push(i);
   console.log(array.join(" "));
 }
 /* 
