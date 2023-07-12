@@ -63,7 +63,7 @@ let array = [-5, -2, -6, -1, 0];
 
 var largest = array[0];
 
-for (var i = 0; i < array.length; i++) {
+for (let i = 0; i < array.length; i++) {
   if (array[i] > largest) {
     largest = array[i];
   }

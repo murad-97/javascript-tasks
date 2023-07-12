@@ -6,7 +6,8 @@ equal or between 70 and 79 ===> C
 equal or between 80 and 89 ===> B
 equal or between 90 and 100 ===> A
 */
-switch ((x = 80)) {
+let x = 80;
+switch (true) {
   case x < 50:
     console.log("Fail");
     break;
