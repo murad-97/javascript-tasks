@@ -140,6 +140,7 @@ Ex: multiply(5,4)
 function multiply(x, y) {
   return x * y;
 }
+multiply(5,4);
 /*
 9
 Write a function called canIGetADrivingLicense that:
