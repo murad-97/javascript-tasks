@@ -3,24 +3,23 @@ let p = document.querySelector("p");
 let family = document.querySelector("#family");
 
 family.addEventListener("change", () => {
-  let selectedIndex = family.selectedIndex;
-  let selectedValue = family.options[selectedIndex].text;
-  if (selectedValue === "Courier New") {
-    p.style.fontFamily = `${family.options[selectedIndex].value}`;
-  } else if (selectedValue === "Calibri") {
-    p.style.fontFamily = `${family.options[selectedIndex].value}`;
+  if (family.value === "'Courier New', Courier, monospace") {
+    p.style.fontFamily = `${family.value}`;
+  } else if (
+    family.value ===
+    "'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif"
+  ) {
+    p.style.fontFamily = `${family.value}`;
   }
 });
 
 let size = document.querySelector("#size");
 
 size.addEventListener("change", () => {
-  let selectedIndex = size.selectedIndex;
-  let selectedValue = size.options[selectedIndex].text;
-  if (selectedValue === "10px") {
-    p.style.fontSize = `${size.options[selectedIndex].value}`;
-  } else if (selectedValue === "15px") {
-    p.style.fontSize = `${size.options[selectedIndex].value}`;
+  if (size.value === "10px") {
+    p.style.fontSize = `${size.value}`;
+  } else if (size.value === "15px") {
+    p.style.fontSize = `${size.value}`;
   }
 });
 
