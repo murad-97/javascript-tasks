@@ -18,12 +18,12 @@ function date() {
   let date = document.querySelector("#date");
   let fnamereg = /^(\d{4})(\/|-)(\d{1,2})(\/|-)(\d{1,2})$/;
   if (fnamereg.test(date.value) === false) {
-    span[2].innerHTML = "the format should be dd/mm/yyyy";
+    span[2].innerHTML = "the format should be yyyy/mm/dd or yyyy-mm-dd";
   }
 }
 function email() {
   let email = document.querySelector("#email");
-  let fnamereg = /[a-z0-9]+@[a-z]+\.[a-z]{2,3}/;
+  let fnamereg = /[a-z0-9]$+@[a-z]+\.[a-z]{2,3}/;
   if (fnamereg.test(email.value) === false) {
     span[3].innerHTML = "the email is not valid";
   }
@@ -41,7 +41,7 @@ function password() {
   let fnamereg = /^(?=.*[0-9])(?=.*[!@#$%^&*_])[a-zA-Z0-9!@#$%^&*_]{6,16}$/;
   if (fnamereg.test(password.value) === false) {
     span[5].innerHTML =
-      "the password should have at least one special caracter and one number (6-19) caracter";
+      "the password should have at least one special caracter and one number (6-16) caracter";
   }
 }
 function confirm_pass() {

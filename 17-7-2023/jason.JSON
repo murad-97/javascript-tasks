@@ -1,0 +1,37 @@
+[
+    {
+            "name":"murad",
+            "age":"25",
+            "major":"architect",
+            "university":"yarmouk",
+            "image":"https://scontent.famm3-3.fna.fbcdn.net/v/t39.30808-6/269083289_3175891719312275_4385889287505647495_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGK62-hkMFc5h3VTvX_bJephz3VzyJUpp6HPdXPIlSmnhgSk64C7v-uoopa7GkV541klEB9Q9U4Fmewvd9hRKGM&_nc_ohc=HNESCxNdhSEAX-gJKOc&_nc_zt=23&_nc_ht=scontent.famm3-3.fna&oh=00_AfA-l8HlJiw0VZ-YVq1bkMnLLtlYDv0Rd1ObQydqAIyJiQ&oe=64BB2AB9"
+        },
+{
+    "name":"ahmad",
+    "age":"20",
+    "major":"math",
+    "university":"JUST",
+    "image":"https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/355030838_2403559773149290_1966268257072069259_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH5wmvflU_DfQbs12ImaRf6qSNW7she52upI1buyF7na9RoNA0GxqntHWisCdpeYEYrjQ-w8g3WHqXQgQaPVowm&_nc_ohc=sOaZPAo_hhsAX8e3zRz&_nc_ht=scontent.famm7-1.fna&oh=00_AfDL2GKhVCxyD0UhEk_hmSNVB7ijPUebYL95uGwZPqayYg&oe=64BA1E0A"
+    },
+{
+        "name":"qasem",
+        "age":"20",
+        "major":"Physical Education",
+        "university":"yarmouk",
+        "image":"https://scontent.famm3-2.fna.fbcdn.net/v/t39.30808-6/328237666_511507647554148_3468822074922337402_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_eui2=AeF9aYzcFuIqa7nDvexuGLt9kSdbX3ugOtmRJ1tfe6A62WzX0YiinDqgLq5FDGHGlxH9Gv1YkGQmKXgqClJc0Pzk&_nc_ohc=m5cx_NiYFcwAX9IFWW5&_nc_zt=23&_nc_ht=scontent.famm3-2.fna&oh=00_AfBCQ8t2lwmSKpdLZsJzcdW-G1xuLDSzsUygAZDlsk5DqA&oe=64B9B893"
+    },
+{
+        "name":"yousef",
+        "age":"21",
+        "major":" Islamic law",
+        "university":"yarmouk",
+        "image":"https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/355030838_2403559773149290_1966268257072069259_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH5wmvflU_DfQbs12ImaRf6qSNW7she52upI1buyF7na9RoNA0GxqntHWisCdpeYEYrjQ-w8g3WHqXQgQaPVowm&_nc_ohc=sOaZPAo_hhsAX8e3zRz&_nc_ht=scontent.famm7-1.fna&oh=00_AfDL2GKhVCxyD0UhEk_hmSNVB7ijPUebYL95uGwZPqayYg&oe=64BA1E0A"
+    },
+{
+        "name":"ghzawi",
+        "age":"23",
+        "major":"jail",
+        "university":"yarmouk",
+        "image":"https://scontent.famm7-1.fna.fbcdn.net/v/t39.30808-6/355030838_2403559773149290_1966268257072069259_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeH5wmvflU_DfQbs12ImaRf6qSNW7she52upI1buyF7na9RoNA0GxqntHWisCdpeYEYrjQ-w8g3WHqXQgQaPVowm&_nc_ohc=sOaZPAo_hhsAX8e3zRz&_nc_ht=scontent.famm7-1.fna&oh=00_AfDL2GKhVCxyD0UhEk_hmSNVB7ijPUebYL95uGwZPqayYg&oe=64BA1E0A"
+    }
+]
