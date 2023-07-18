@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+button{
+    padding: 10px;
+    border: none;
+    background-color: aquamarine;
+}
+.card{
+    display: flex;
+    
+margin: 10px;
+justify-content:flex-start;
+gap: 70px;
+/* background-color:rgb(227, 186, 186); */
+}
+.container .card:nth-child(odd){
+background-color: rgb(188, 225, 249);
+}
+
+.container .card:nth-child(even){
+    background-color: rgb(231, 254, 243);
+    }
+.card h2{
+    width: 70%;
+    padding-left:20px ;
+}
+.card a {
+    text-decoration: none;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 50px;
+}
+.header input{
+    width: 30%;
+    background-color: rgb(184, 252, 229);
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.header button{
+
+    border-radius: 10px;
+}

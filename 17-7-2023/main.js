@@ -5,7 +5,7 @@ load.addEventListener("click", () => {
   let names = new XMLHttpRequest();
   names.open("GET", "jason.JSON");
   names.onload = () => {
-    let json = JSON.parse(names.responseText);
+    let json = JSON.parse(this.responseText);
     for (let i = 0; i < json.length; i++) {
       let row = document.createElement("tr");
       table.appendChild(row);
