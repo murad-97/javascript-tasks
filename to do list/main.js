@@ -1,9 +1,8 @@
 let add_input = document.querySelector(".add-con input");
+add_input.focus();
 let addptn = document.querySelector(".add-con button");
 let taskcontainer = document.querySelector(".task_container");
 let tasksarr = [];
-
-console.log(JSON.parse(localStorage.getItem("tasksarr")));
 if (localStorage.getItem("tasksarr") !== null) {
   tasksarr = JSON.parse(localStorage.getItem("tasksarr"));
   tasksarr.forEach((element) => {
@@ -34,18 +33,23 @@ addptn.addEventListener("click", (eo) => {
 
     taskcontainer.appendChild(task);
     add_input.value = "";
+  } else {
+    alert("Please enter your task");
   }
 });
 taskcontainer.addEventListener("click", (eo) => {
   if (eo.target.id === "delete") {
-    eo.target.parentElement.remove();
-    tasksarr = JSON.parse(localStorage.getItem("tasksarr")).filter(
-      (element) => {
-        return eo.target.parentElement.childNodes[1].innerHTML !== element
-          ? element
-          : false;
-      }
-    );
+    let confirm = window.confirm("Are you sure you want to delete");
+    if (confirm === true) {
+      eo.target.parentElement.remove();
+      tasksarr = JSON.parse(localStorage.getItem("tasksarr")).filter(
+        (element) => {
+          return eo.target.parentElement.childNodes[1].innerHTML !== element
+            ? element
+            : false;
+        }
+      );
+    }
     localStorage.setItem("tasksarr", JSON.stringify(tasksarr));
   } else if (eo.target.id === "update") {
     let prompt = window.prompt(
