@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(244, 242, 242);
+}
+.container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+}
+h1{
+    margin: 10px 0;
+}
+.add-con{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 50px;
+}
+.add-con input{
+    width: 100%;
+    font-size: 25px;
+}
+.btn{
+    width: 100px;
+    font-size: 25px;
+    border: none;
+    background-color: rgb(0,123,255);
+    color: white;
+    height: 100%;
+}
+.search-con{
+    width: 90%;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.search-con input{
+    width: 50%;
+    font-size: 25px;
+}
+.task_container{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+font-size: 25px;
+width: 90%;
+
+
+
+}
+.task{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 25px;
+    height: 40px;
+    margin: 5px 0;
+    align-items: center;
+}
+.task p {
+    width: 90%;
+}
+
